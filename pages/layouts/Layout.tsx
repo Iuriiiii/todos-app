@@ -33,7 +33,7 @@ const Layout = (props: Props) => {
                 <div className='flex-center h-[calc(100vh-10rem)] overflow-y-scroll'>
                     {props.children}
                 </div>
-                <Footer className='h-20 flex-center flex-col sm:flex-row space-x-3' />
+                <Footer className='h-20 flex-center flex-col sm:flex-row space-x-3 sm:text-lg' />
             </div>
         </>
     )

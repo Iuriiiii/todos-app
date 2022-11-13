@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFillBriefcaseFill } from 'react-icons/bs';
+import { BsFillBriefcaseFill, BsGithub } from 'react-icons/bs';
 import { GrLinkedin } from 'react-icons/gr';
 
 interface Props { }
@@ -11,6 +11,7 @@ const Footer = (props: React.HTMLAttributes<HTMLElement>) => {
             <div className='flex space-x-3'>
                 <a className='hover:rotate-12' target='_blank' href='https://www.linkedin.com/in/alexnqn/' rel='noopener noreferrer'><GrLinkedin /></a>
                 <a className='hover:rotate-12' target='_blank' href='https://alexdeveloper.me/' rel='noopener noreferrer'><BsFillBriefcaseFill /></a>
+                <a className='hover:rotate-12' target='_blank' href='https://github.com/Iuriiiii/todos-app' rel='noopener noreferrer'><BsGithub /></a>
             </div>
         </footer>
     )
