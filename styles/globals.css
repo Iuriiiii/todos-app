@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .reverse-animation {
+    animation-direction: reverse;
+  }
+
+  .x-screen {
+    @apply w-screen h-screen;
+  }
+
+}
+
 html,
 body {
   padding: 0;
@@ -19,6 +38,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
